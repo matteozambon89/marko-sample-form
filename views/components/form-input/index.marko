@@ -1,0 +1,76 @@
+<div>
+	<form>
+		<!-- inputText -->
+		<div class={ "form-group": true, "has-success": state.inputTextHasSuccess, "has-danger": state.inputTextHasDanger }>
+			<label for="my-form-input">Text</label>
+			<marko-form-input
+				type="text"
+				class="form-control"
+				placeholder="Type in here..."
+				formName=state.formName
+				name=state.inputTextName
+				value=state.inputTextValue
+				required=true
+				validationRules=state.inputTextValidation
+				debug=state.debug
+				key="inputText"
+				no-update />
+			<if(state.inputTextHasDanger)>
+				<div.form-control-feedback>${state.inputTextMessage}</div>
+			</if>
+			<small.form-text.text-muted>Write a text of at least 2 characters long</small>
+			<small.form-text.text-muted>
+				<strong>Value</strong> ${state.inputTextValue}
+			</small>
+			<small.form-text.text-muted>
+				<strong>Pristine</strong> ${state.inputTextIsPristine}
+			</small>
+			<small.form-text.text-muted>
+				<strong>Dirty</strong> ${state.inputTextIsDirty}
+			</small>
+			<small.form-text.text-muted>
+				<strong>Valid</strong> ${state.inputTextIsValid}
+			</small>
+			<small.form-text.text-muted>
+				<strong>During</strong> ${state.inputTextDuring}
+			</small>
+		</div>
+		<!-- END inputText -->
+		<!-- inputEmail -->
+		<div class={ "form-group": true, "has-success": state.inputEmailHasSuccess, "has-danger": state.inputEmailHasDanger }>
+			<label for="my-form-input">Text</label>
+			<marko-form-input
+				type="text"
+				class="form-control"
+				placeholder="Type in here..."
+				formName=state.formName
+				name=state.inputEmailName
+				value=state.inputEmailValue
+				required=true
+				validationRules=state.inputEmailValidation
+				debug=state.debug
+				key="inputEmail"
+				no-update />
+			<if(state.inputEmailHasDanger)>
+				<div.form-control-feedback>${state.inputEmailMessage}</div>
+			</if>
+			<small.form-text.text-muted>Write a text of at least 2 characters long</small>
+			<small.form-text.text-muted>
+				<strong>Value</strong> ${state.inputEmailValue}
+			</small>
+			<small.form-text.text-muted>
+				<strong>Pristine</strong> ${state.inputEmailIsPristine}
+			</small>
+			<small.form-text.text-muted>
+				<strong>Dirty</strong> ${state.inputEmailIsDirty}
+			</small>
+			<small.form-text.text-muted>
+				<strong>Valid</strong> ${state.inputEmailIsValid}
+			</small>
+			<small.form-text.text-muted>
+				<strong>During</strong> ${state.inputEmailDuring}
+			</small>
+		</div>
+		<!-- END inputEmail -->
+	</form>
+</div>

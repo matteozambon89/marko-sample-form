@@ -1,0 +1,12 @@
+{
+	"dependencies": [
+		// jQuery
+		"jquery/dist/jquery.js",
+		// Tether
+		"tether/dist/css/tether.css",
+		"tether/dist/js/tether.js",
+		// Bootstrap 4
+		"bootstrap/dist/css/bootstrap.css",
+		"bootstrap/dist/js/bootstrap.js"
+	]
+}

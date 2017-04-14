@@ -1,0 +1,39 @@
+{
+  "name": "marko-sample-form",
+  "version": "1.0.0",
+  "description": "Marko sample with marko-form approach",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marko",
+    "sample",
+    "form"
+  ],
+  "author": "Matteo Zambon",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "browser-refresh-taglib": "^1.1.0",
+    "express": "^5.0.0-alpha.3",
+    "extend-object": "^1.0.0",
+    "lasso": "^2.11.3",
+    "lasso-image": "^1.0.11",
+    "lasso-marko": "^2.2.2",
+    "lasso-sass": "^1.1.9",
+    "marko": "^4.2.0",
+    "marko-form": "^1.0.0-alpha.1",
+    "minprops": "^1.0.0",
+    "object-path": "^0.11.4",
+    "require-self-ref": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.4",
+    "eslint-config-trails": "^1.0.4",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.3",
+    "lodash": "^4.11.1",
+    "mocha": "^2.4.5"
+  }
+}
