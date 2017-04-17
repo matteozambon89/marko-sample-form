@@ -38,7 +38,7 @@
 		<!-- END inputText -->
 		<!-- inputEmail -->
 		<div class={ "form-group": true, "has-success": state.inputEmailHasSuccess, "has-danger": state.inputEmailHasDanger }>
-			<label for="my-form-input">Text</label>
+			<label for="my-form-input">Email</label>
 			<marko-form-input
 				type="text"
 				class="form-control"
@@ -54,7 +54,7 @@
 			<if(state.inputEmailHasDanger)>
 				<div.form-control-feedback>${state.inputEmailMessage}</div>
 			</if>
-			<small.form-text.text-muted>Write a text of at least 2 characters long</small>
+			<small.form-text.text-muted>Write a valid email</small>
 			<small.form-text.text-muted>
 				<strong>Value</strong> ${state.inputEmailValue}
 			</small>

@@ -2,8 +2,9 @@
   "name": "marko-sample-form",
   "version": "1.0.0",
   "description": "Marko sample with marko-form approach",
-  "main": "server.js",
   "scripts": {
+    "start": "marko-starter server",
+    "build": "marko-starter build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,16 +16,12 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "browser-refresh-taglib": "^1.1.0",
-    "express": "^5.0.0-alpha.3",
     "extend-object": "^1.0.0",
-    "lasso": "^2.11.3",
-    "lasso-image": "^1.0.11",
-    "lasso-marko": "^2.2.2",
-    "lasso-sass": "^1.1.9",
-    "marko": "^4.2.0",
+    "lasso": "^2.11.8",
+    "lasso-marko": "^2.3.0",
+    "marko-starter": "^1.0.0",
+    "marko-devtools": "^1.0.2",
     "marko-form": "^1.0.0-alpha.1",
-    "minprops": "^1.0.0",
     "object-path": "^0.11.4",
     "require-self-ref": "^2.0.1"
   },
